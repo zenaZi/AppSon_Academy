@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family: Quicksand, sans-serif;
+
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+}
+
+*,
+*:after,
+*:before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* INTRO */
+
+.intro {
+    width: 1920px;
+    height: 100vh;
+
+    background: url("../img/intro.jpg") center no-repeat;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+h1 {
+    padding-top: 208px;
+    font-size: 36px;
+}
