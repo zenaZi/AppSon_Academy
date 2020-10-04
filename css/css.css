@@ -18,12 +18,76 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-/* INTRO */
+/* header */
+.header {
+    width: 1700px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
 
+.header__container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #feffff;
+    border-radius: 0 0 21.5px 21.5px;
+    background: #0f7bff;
+    padding: 25px 35px;
+}
+
+/* nav */
+.nav {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+
+    text-decoration: none;
+    color: #929292;
+
+    transition: color .2s linear;
+}
+
+.nav__link:hover {
+    color: #0f7bff;
+}
+
+.button {
+    text-transform: uppercase;
+    border: 1px solid #0063dd;
+    border-radius: 25px;
+    padding: 20px 50px;
+    background: #0063dd;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+
+/* INTRO */
 .intro {
     width: 1920px;
-    height: 100vh;
-
+    height: 1045px;
+    padding-top: 200px;
     background: url("../img/intro.jpg") center no-repeat;
 }
 
@@ -35,8 +99,54 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-
-h1 {
-    padding-top: 208px;
+.intro__title {
     font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
 }
+
+.intro_inner{
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro_parag {
+
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.intro__button {
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.button__one {
+    display: inline-block;
+    vertical-align: center;
+    padding: 15px 40px;
+    border: 1px solid #0f7bff;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #0f7bff;
+
+}
+
+.button__two {
+    display: inline-block;
+    vertical-align: center;
+    padding: 15px 40px;
+    border: 2px solid #0f7bff;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #0f7bff;
+
+}
+
