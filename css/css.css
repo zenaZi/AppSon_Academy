@@ -364,3 +364,175 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/*pricing*/
+
+.pricing {
+    height: 840px;
+    background: #fff;
+    padding-top: 130px;
+}
+
+.pricing-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 15px 0;
+}
+.pricing-item {
+    flex-basis: 30%;
+}
+
+.pricing-title {
+    color: #333333;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 35px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.pricing-text {
+    padding-top: 160px;
+}
+
+.pric-text {
+    text-align: left;
+    line-height: 27px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+
+.pricing-button {
+    text-decoration: none;
+    margin: 0;
+    background-color: #0f7bff;
+    border: 2px solid #0f7bff;
+    border-radius: 25px 0 0 25px;
+    padding: 14px 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.pricing-two {
+    background-color: #fff;
+    border-radius: 0 25px 25px 0;
+    padding: 14px 55px;
+    color: #0f7bff;
+    margin-left: -20px;
+}
+
+
+.item-block {
+    background-color: #fff;
+    width: 360px;
+    height: 580px;
+    padding-top: 40px;
+    -webkit-box-shadow: 6px 2px 72px -2px rgba(165,165,165,0.25);
+    -moz-box-shadow: 6px 2px 72px -2px rgba(165,165,165,0.25);
+    box-shadow: 6px 2px 72px -2px rgba(165,165,165,0.25);
+}
+
+.pricing-images {
+    display: block;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.pric-title {
+    color: #333333;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pricing-p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 34px;
+    margin: 0;
+    margin-bottom: 26px;
+}
+
+.pricing-price {
+    text-align: center;
+    color: #0f7bff;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 40px;
+}
+span {
+    font-size: 32px;
+}
+
+.pricing-item-button {
+    text-decoration: none;
+    background-color: #0f7bff;
+    color: #fff;
+    padding: 15px 50px;
+    border-radius: 25px;
+    border: 2px solid #0f7bff;
+    position: relative;
+    left: 25%;
+    transform: translate(-50%, 0);
+}
+
+.button-pric {
+    background-color: #fff;
+    color: #0f7bff;
+}
+
+/*free-trial*/
+
+.free-trial {
+    background: #f5fcfd;
+    height: 335px;
+}
+
+.free-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+.free-item {
+    padding-top: 135px;
+    flex-basis: 45%;
+}
+
+.free-title {
+    font-size: 32px;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.free-button {
+    background-color: #0f7bff;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 30px 80px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
