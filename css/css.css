@@ -523,8 +523,42 @@ span {
 }
 
 
+.free-1 {
+    cursor: pointer;
+    position: relative;
+    width: 8px;
+    height: 3px;
+    margin-top: -5px;
+    padding-left: 200px;
 
-
+}
+.free-1 div {
+    position: relative;
+    top: -10px;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+}
+.free-1 div::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    top: -3px;
+    right: -2px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+.free-1 div::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    top: 3px;
+    right: -2px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+}
 
 
 
