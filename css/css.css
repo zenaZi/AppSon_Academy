@@ -620,12 +620,23 @@ hr {
 }
 
 
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .footer-copyright {
     color: #fff;
+
 }
 
 .terms {
     color: #fff;
+    padding-left: 100px;
     word-spacing: 36px;
 }
 
+.social-media {
+    word-spacing: 25px;
+}
