@@ -314,10 +314,16 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 150px;
 }
 
+.works-text {
+    background: url("../img/kist.png") top no-repeat;
+}
+
+
 .work-title {
     color: #333333;
     font-size: 32px;
     margin: 0;
+
     margin-bottom: 40px;
     font-weight: bold;
 }
@@ -488,6 +494,75 @@ span {
     background-color: #fff;
     color: #0f7bff;
 }
+
+
+
+/* testimonials */
+.testimonials {
+    width: 100%;
+    height: 610px;
+    background-color: #f5fcfd;
+}
+
+.testimonials-block {
+    display: flex;
+
+}
+
+.testimonials-title {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #333333;
+    padding-top: 130px;
+    padding-left: 130px;
+}
+
+
+
+
+
+
+
+
+
+/* latest */
+.latest {
+    background-color: #fff;
+    height: 960px;
+}
+
+.latest-text {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.latest-title {
+    color: #333333;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.latest-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-item{
+    flex-basis: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*free-trial*/
 
