@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c71a2eb5-0032-4047-ac14-c1a4ba34975b" name="Default Changelist" comment="добавлен блок latest">
-      <change afterPath="$PROJECT_DIR$/css/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/slick.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AppSon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AppSon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -85,6 +83,7 @@
       <workItem from="1602177933808" duration="16542000" />
       <workItem from="1602222135674" duration="2115000" />
       <workItem from="1602245705847" duration="8774000" />
+      <workItem from="1602272121923" duration="5334000" />
     </task>
     <task id="LOCAL-00001" summary="добавлен блок latest">
       <created>1602222394942</created>

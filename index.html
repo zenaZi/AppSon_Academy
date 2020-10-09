@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link  rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css "/>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
 </head>
 <body>
 
@@ -202,28 +205,29 @@
         <img src="img/people.png" alt="people" class="people">
         <div class="testimonials-slider">
             <h2 class="testimonials-title">Trusted By More Than 55M Peoples</h2>
-
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <p>SDFSDFSDFSDF</p>
+            <div class=" mt-5 mb-5">
+                <div class="owl-carousel owl-theme">
+                    <div class="slider">
+                    <div class="slider-item">
+                        <h4 class="slider-title">Raisa Moni <img src="img/twitter%20icon.png" alt="twitter" class="twitter"></h4>
+                        <h6 class="slider-subtitlle">Envato Customer</h6>
+                        <p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
                     </div>
-                    <div class="carousel-item">
-                        <p>ASDFASDGAFDBETRBSDFSDFSDFSDF</p>
+                    <div class="slider-item">
+                        <h4 class="slider-title"> Raisa Moni<img src="img/twitter%20icon.png" alt="twitter" class="twitter"></h4>
+                        <h6 class="slider-subtitlle">Envato Customer</h6>
+                        <p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
                     </div>
-                    <div class="carousel-item active">
-                        <p>SDFSDFSDFSDFdffffffffff</p>
+                    <div class="slider-item">
+                        <h4 class="slider-title">Raisa Moni<img src="img/twitter%20icon.png" alt="twitter" class="twitter"></h4>
+                        <h6 class="slider-subtitlle">Envato Customer</h6>
+                        <p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
+
+
+
         </div>
     </div>
 
@@ -341,6 +345,15 @@
 </footer>
 <!-- / .footer -->
 
+
+<script  src="/node_modules/jquery/dist/jquery.js "> </script>
+<script  src="/node_modules/owl.carousel/dist/owl.carousel.min.js "> </script>
+
+<script>
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel();
+    });
+</script>
 
 </body>
 </html>

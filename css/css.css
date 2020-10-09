@@ -520,13 +520,18 @@ span {
 
 }
 
+.slider {
+    display: flex;
+    justify-content: space-between;
+}
 
-.testimonials-item {
+.slider-item {
     flex-basis: 30%;
     background-color: #fff;
     width: 360px;
     height: 215px;
     border-radius: 5px;
+    padding-top: 35px;
 }
 
 .testimonials-title {
@@ -537,21 +542,31 @@ span {
 
 }
 
-.testimonials-subtitle {
+.slider-title {
     font-size: 18px;
     color: #333333;
     margin: 0;
+    margin-bottom: 10px;
+    padding-left: 25px;
+
 }
 
-.testi-minititle {
+.twitter {
+    padding-left: 155px;
+}
+
+.slider-subtitlle {
     font-size: 14px;
     color: #929292;
     margin: 0;
+    margin-bottom: 30px;
+    padding-left: 25px;
 }
 
-.testimonial-text {
+.slider-text {
     margin: 0;
     width: 330px;
+    padding-left: 25px;
 }
 
 
