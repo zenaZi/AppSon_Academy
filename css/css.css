@@ -515,13 +515,52 @@ span {
 
 }
 
+.testimonials-slider {
+    padding-left: 130px;
+
+}
+
+
+.testimonials-item {
+    flex-basis: 30%;
+    background-color: #fff;
+    width: 360px;
+    height: 215px;
+    border-radius: 5px;
+}
+
 .testimonials-title {
     font-size: 32px;
     font-weight: bolder;
     color: #333333;
     padding-top: 130px;
-    padding-left: 130px;
+
 }
+
+.testimonials-subtitle {
+    font-size: 18px;
+    color: #333333;
+    margin: 0;
+}
+
+.testi-minititle {
+    font-size: 14px;
+    color: #929292;
+    margin: 0;
+}
+
+.testimonial-text {
+    margin: 0;
+    width: 330px;
+}
+
+
+
+
+
+
+
+
 
 
 /* latest */
@@ -770,12 +809,10 @@ hr {
 .footer-social {
     display: flex;
     justify-content: space-between;
-
 }
 
 .footer-copyright {
     color: #fff;
-
 }
 
 .terms {
